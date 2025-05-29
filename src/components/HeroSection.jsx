@@ -32,7 +32,7 @@ const HeroSection = () => {
 
           <Col md={6} className="position-relative mt-4 mt-md-0">
             <div className="main-image">
-              <Image src="http://localhost:5173/Prominent-Homes/src/assets/img/banner-3.png" className="rounded" />
+              <Image src="/Prominent-Homes/assets/img/banner-3.png" className="rounded" />
             
             </div>
           </Col>
