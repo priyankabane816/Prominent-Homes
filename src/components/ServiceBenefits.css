@@ -1,0 +1,102 @@
+.section-gap {
+  padding: 80px 0;
+}
+
+.service-benefits-inner {
+  padding: 20px 70px;
+  background: linear-gradient(to bottom, #f8f8ff, #fff);
+  border-radius: 10px;
+}
+
+.s-benefits-section-head {
+  text-align:left;
+  margin-bottom: 50px;
+}
+
+.s-benefits-section-head h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #212529;
+  margin-bottom: 10px;
+  position: relative;
+}
+.s-benefits-icon svg {
+    color: #2eca6a;
+    font-size: 30px;
+}
+/* .s-benefits-section-head h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #ff6600;
+  margin: 12px auto 0;
+  border-radius: 2px;
+} */
+
+/* Two-column layout with spacing */
+.service-benefits-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px 60px;
+}
+
+/* Card styling */
+.s-benefits-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  text-align:left;
+}
+
+/* Icon box */
+.s-benefits-icon {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  background: #fff5f0;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(255, 102, 0, 0.1);
+}
+
+.s-benefits-icon img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Text content */
+.s-benefits-info h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 10px;
+}
+
+.s-benefits-info p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .s-benefits-section-head h3 {
+    font-size: 28px;
+  }
+
+  .s-benefits-wrapper {
+    gap: 30px;
+  }
+
+  .s-benefits-info h5 {
+    font-size: 18px;
+  }
+
+  .s-benefits-info p {
+    font-size: 14px;
+  }
+}

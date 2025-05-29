@@ -1,0 +1,36 @@
+.features.section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.features h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.features p {
+  color: #6c757d;
+}
+
+.icon-box {
+  margin-bottom: 20px;
+}
+
+.icon-box i {
+  font-size: 28px;
+  color: #0d6efd;
+  margin-right: 15px;
+}
+
+.icon-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.icon-box p {
+  font-size: 15px;
+  color: #555;
+}

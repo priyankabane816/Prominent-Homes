@@ -1,0 +1,90 @@
+.about-company-section {
+  background: linear-gradient(to bottom, #ffffff 0%, #f7f9fc 100%);
+}
+
+.text-orange {
+  color: #2eca6a !important;
+}
+.about{
+  text-align:left;
+}
+.btn-orange {
+  background-color: #2eca6a;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: #2eca6a;
+}
+button.btn.btn-light:hover {
+    background: #2eca6a;
+    color: #fff !important;
+   
+}
+.badge-box {
+  z-index: 2;
+}
+
+.glass 
+{
+    float:left;
+}
+.para {
+    text-align: left;
+    padding: 0px 0px 0px 38px;
+    line-height: 33px;
+}
+
+.about.section {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.about .who-we-are {
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.about h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.about .fst-italic {
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.about ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.about ul li i {
+  color: #28a745;
+  margin-right: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about .about-images img {
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

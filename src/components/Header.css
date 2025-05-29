@@ -1,0 +1,35 @@
+.nav-link {
+  position: relative;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link.active {
+  color: #111;
+  font-weight: 700;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #28a745; /* green underline */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+    .navbar-expand-xl .navbar-nav .nav-link {
+        /* padding-right: 5px; */
+        /* padding-left: var(--bs-navbar-nav-link-padding-x); */
+        padding: 12px 17px!important;
+        margin: 0px 15px!important;
+    }
+}

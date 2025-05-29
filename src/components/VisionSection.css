@@ -1,0 +1,34 @@
+.vision-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #1b1b1b;
+}
+
+.circle-icon {
+  width: 18px;
+    height: 18px;
+    border: 2px solid #1b1b1b;
+    border-radius: 50%;
+    background: #2eca6a;
+}
+
+.vision-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+}
+.vision-item.spl {
+    margin-top: -50px;
+}
+.vision-text {
+    margin-top: 10px;
+    color: #333;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
